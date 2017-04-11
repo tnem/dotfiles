@@ -1,0 +1,22 @@
+;; -*- emacs-lisp -*- <16/03/15 14:50:03 /Users/grahamjones/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; You can delete it, forcing Tramp to reapply the checks.
+
+((["ssh" nil "boss-staging" nil nil]
+  ("locale" "LC_ALL=en_US.utf8")
+  ("uname" "Linux 3.10.0-123.el7.x86_64")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh"))
+ (["ssh" nil "boss" nil nil]
+  ("locale" "LC_ALL=en_US.utf8")
+  ("uname" "Linux 3.10.0-123.el7.x86_64")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh"))
+ (["scp" nil "ssh" nil nil]
+  nil)
+ (["sshx" nil "10.0.0.200" nil nil]
+  nil))

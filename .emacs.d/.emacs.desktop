@@ -1,0 +1,668 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Wed Jun  1 09:39:18 2016
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22351 4022 85790 0) (desktop . "206") "grahamjones@Jones.local" nil nil ((((font-backend mac-ct ns) (fontsize . 16) (font . "-*-Inconsolata-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#eaeaea") (background-color . "#000000") (line-spacing) (left-fringe . 8) (right-fringe . 8) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#d54e53") (environment) (border-color . "#2a2a2a") (frameset--id . "33B0-DE51-6E34-67FA") (frameset--mini t . t) (height . 86) (width . 317) (modeline . t) (minibuffer . t) (unsplittable) (left . 1442) (top . 629) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "Jones.local") (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 68) (min-pixel-width . 160) (min-pixel-height-ignore . 34) (min-pixel-width-ignore . 64) (min-pixel-height-safe . 17) (min-pixel-width-safe . 32)) hc (pixel-width . 2552) (pixel-height . 1445) (total-width . 319) (total-height . 85) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1276) (pixel-height . 1445) (total-width . 159) (total-height . 85) (normal-height . 1.0) (normal-width . 0.5) (buffer "test/index.clj" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 479) (start . 1))) (leaf (last . t) (pixel-width . 1276) (pixel-height . 1445) (total-width . 160) (total-height . 85) (normal-height . 1.0) (normal-width . 0.5) (buffer "ui.el" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 734) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("incon" "font" "index-or-" "de-index-record!" "example-whois-" "delete-" "delete-core-record!" "delete from " "[" "oldest-undel" "pmap-nth" "delete-lifecycle-for-day" "lifecycle-for-day" "domains-to-check" "whois" "ensure-stag"))
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs.d/" "/Users/grahamjones/.emacs.d/customizations/ui.el" "/Users/grahamjones/.emacs.d/init.el" "/Users/grahamjones/whibse/whibse/modules/mob/deploy/bin/hitman.sh" "/Users/grahamjones/whibse/whibse/modules/mob/deploy/bin/hitman.clj" "/Users/grahamjones/whibse/whibse/modules/mob/deploy/bin/hitman.sh" "/Users/grahamjones/whibse/puppet/modules/files/files/etc/cron.d/librarian.whibse.com/hitman" "~/whibse/whibse/modules/mob/src/test/clojure/com/whibse/mob/test/archival/" "/Users/grahamjones/whibse/whibse/modules/mob/src/test/clojure/com/whibse/mob/test/archival/hitman.clj" "/Users/grahamjones/whibse/whibse/modules/mob/deploy/bin/librarian.sh" "/Users/grahamjones/whibse/whibse/modules/mob/deploy/bin/invoke-script.clj" "/Users/grahamjones/whibse/whibse/modules/mob/src/test/clojure/com/whibse/mob/test/validation.clj" "/Users/grahamjones/whibse/whibse/modules/mob/src/test/clojure/com/whibse/mob/test/index.clj" "/Users/grahamjones/whibse/whibse/modules/mob/src/main/clojure/com/whibse/mob/archival/hitman.clj" "/Users/grahamjones/whibse/whibse/modules/search-engine/src/main/webapp/app/Validator/ValidationResults.jsx" "~/whibse/whibse" "~/whibse/whibse/modules/mob/src/main/clojure/com/whibse/mob/index.clj" "~/.emacs.d/ido.last" "~/.emacs.d/elpa/neotree-20160306.730/neotree-autoloads.el" "~/whibse/whibse/modules/search-engine/src/main/clojure/com/whibse/search/stats.clj" "~/whibse/whibse/modules/mob/src/main/clojure/com/whibse/mob/librarian.clj" "~/whibse/whibse/modules/mob/src/main/clojure/com/whibse/mob/spider.clj" "~/whibse/whibse/modules/processing/src/main/clojure/com/whibse/harvest/bulk/util/spider.clj" "~/whibse/puppet/environments/whibse/manifests/face.whibse.com.pp" "~/whibse/puppet/environments/whibse_staging/manifests/wwwN.staging.whibse.com.pp" "~/whibse/puppet/hieradata/environments/production.yaml" "~/whibse/puppet/environments/whibse/manifests/harvester-app1.whibse.com.pp" "~/whibse/whibse/modules/mob/src/main/clojure/com/whibse/mob/conf.clj" "~/whibse/puppet/environments/whibse/manifests/casN.whibse.com.pp" "~/whibse/whibse/modules/search-engine/src/main/webapp/app/index.js" "~/scratch/segmentize/index.js" "~/whibse/whibse/modules/search-engine/src/main/clojure/com/whibse/search/web.clj" "~/whibse/whibse/modules/search-engine/src/main/clojure/com/whibse/search/template.clj" "~/whibse/whibse/modules/search-engine/src/main/webapp/temp.html" "~/whibse/whibse/modules/search-engine/src/main/webapp/app/SearchResults.jsx" "~/whibse/whibse/modules/search-engine/src/main/webapp/app/AboutResults.jsx" "~/whibse/whibse/modules/search-engine/src/main/clojure/com/whibse/search/decorate.clj"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/src/test/clojure/com/whibse/mob/test/index.clj"
+  "index.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  479
+  '(773 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/src/main/clojure/com/whibse/mob/archival/hitman.clj"
+  "hitman.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  92
+  '(92 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/.emacs.d/customizations/ui.el"
+  "ui.el"
+  'emacs-lisp-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode)
+  734
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode)
+  2536
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/src/test/clojure/com/whibse/mob/test/archival/hitman.clj"
+  "hitman.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  6352
+  '(6352 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/src/main/clojure/com/whibse/mob/index.clj"
+  "index.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  4668
+  '(1830 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/src/main/clojure/com/whibse/mob/archival/common.clj"
+  "common.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  1545
+  '(1326 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/src/main/clojure/com/whibse/mob/archival/librarian.clj"
+  "librarian.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  504
+  '(504 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/src/main/clojure/com/whibse/mob/main.clj"
+  "main.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  3937
+  '(11074 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/deploy/bin/hitman.clj"
+  "hitman.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  495
+  '(293 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/deploy/bin/librarian.sh"
+  "librarian.sh"
+  'sh-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode)
+  1
+  '(339 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/deploy/bin/librarian.clj"
+  "librarian.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  296
+  '(296 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/deploy/bin/hitman.sh"
+  "hitman.sh"
+  'sh-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode)
+  119
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/src/test/clojure/com/whibse/mob/test/validation.clj"
+  "validation.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  142
+  '(108 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/src/test/clojure/com/whibse/mob/test/cass_testing.clj"
+  "cass_testing.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  88
+  '(88 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/modules/files/files/etc/cron.d/librarian.whibse.com/hitman"
+  "hitman"
+  'fundamental-mode
+  '(projectile-mode linum-mode global-auto-revert-mode)
+  120
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/modules/files/files/etc/cron.d/librarian.whibse.com/librarian"
+  "librarian"
+  'fundamental-mode
+  '(projectile-mode linum-mode global-auto-revert-mode)
+  1
+  '(121 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/modules/whibse/manifests/harvester.pp"
+  "harvester.pp"
+  'fundamental-mode
+  '(projectile-mode linum-mode global-auto-revert-mode)
+  1230
+  '(537 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/warehouse/src/main/clojure/com/whibse/cassandra/access.clj"
+  "access.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  8012
+  '(8270 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/src/main/clojure/com/whibse/mob/refresh.clj"
+  "refresh.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  8526
+  '(190 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/src/main/clojure/com/whibse/mob/jobs.clj"
+  "jobs.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  61445
+  '(63188 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/src/main/clojure/com/whibse/mob/harvest.clj"
+  "harvest.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  9620
+  '(7294 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/src/main/clojure/com/whibse/mob/btreejob.clj"
+  "btreejob.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  2123
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/search-engine/src/main/clojure/com/whibse/search/lookup.clj"
+  "lookup.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  4715
+  '(557 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/harvester/src/main/clojure/whibse/harvester/nodes.clj"
+  "nodes.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  28842
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/harvester/src/main/clojure/whibse/harvester/lamina.clj"
+  "lamina.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  24625
+  '(817 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/src/main/clojure/com/whibse/mob/spider.clj"
+  "spider.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  15797
+  '(15795 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse-dashboard/app/assets/javascripts/domains.js"
+  "domains.js"
+  'web-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode)
+  1042
+  '(1021 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse-dashboard/app/models/ability.rb"
+  "ability.rb"
+  'ruby-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode)
+  2374
+  '(2374 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/harvester/build.gradle"
+  "build.gradle"
+  'fundamental-mode
+  '(projectile-mode linum-mode global-auto-revert-mode)
+  1095
+  '(606 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/environments/whibse_staging/manifests/wwwN.staging.whibse.com.pp"
+  "wwwN.staging.whibse.com.pp"
+  'fundamental-mode
+  '(projectile-mode linum-mode global-auto-revert-mode)
+  3116
+  '(3378 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/search-engine/src/main/webapp/app/Validator/ValidationResults.jsx"
+  "ValidationResults.jsx"
+  'web-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode)
+  2532
+  '(2066 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/modules/whibse/templates/harvester-www1.staging.whibse.com.erb"
+  "harvester-www1.staging.whibse.com.erb"
+  'web-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/src/main/clojure/com/whibse/mob/validation.clj"
+  "validation.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  677
+  '(677 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/search-engine/src/main/clojure/com/whibse/search/validation.clj"
+  "validation.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  2025
+  '(180 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/search-engine/src/main/clojure/com/whibse/search/web.clj"
+  "web.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  883
+  '(60 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/modules/whibse/templates/harvester_conf.clj.erb"
+  "harvester_conf.clj.erb"
+  'web-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode)
+  1098
+  '(2073 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/src/main/clojure/com/whibse/mob/migration.clj"
+  "migration.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  63
+  '(63 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/environments/whibse/manifests/harvester-app1.whibse.com.pp"
+  "harvester-app1.whibse.com.pp"
+  'fundamental-mode
+  '(projectile-mode linum-mode global-auto-revert-mode)
+  834
+  '(779 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/environments/whibse_staging/manifests/whibse_staging.pp"
+  "whibse_staging.pp"
+  'fundamental-mode
+  '(projectile-mode linum-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/common/src/main/clojure/whibse/harvester/flatten.clj"
+  "flatten.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  43
+  '(43 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/environments/whibse/manifests/brandy.whibse.com.pp"
+  "brandy.whibse.com.pp"
+  'fundamental-mode
+  '(projectile-mode linum-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/parser-ui/app/helpers/jobs_helper.rb"
+  "jobs_helper.rb"
+  'ruby-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode)
+  40
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/parser-ui/app/assets/javascripts/intro/intro.js.coffee"
+  "intro.js.coffee"
+  'fundamental-mode
+  '(projectile-mode linum-mode global-auto-revert-mode)
+  2837
+  '(2837 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/parser-ui/app/assets/javascripts/intro.js"
+  "intro.js"
+  'web-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/parser-ui/app/views/pages/intro.html.haml"
+  "intro.html.haml"
+  'html-mode
+  '(projectile-mode linum-mode global-auto-revert-mode subword-mode tagedit-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/parser-ui/config/routes.rb"
+  "routes.rb"
+  'ruby-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode)
+  411
+  '(411 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/whibse/modules/mob/src/main/clojure/com/whibse/mob/fetch.clj"
+  "fetch.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode eldoc-mode paredit-mode subword-mode cider-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/modules/whibse/manifests/search.pp"
+  "search.pp"
+  'fundamental-mode
+  '(projectile-mode linum-mode global-auto-revert-mode)
+  1583
+  '(303 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/environments/whibse/manifests/face.whibse.com.pp"
+  "face.whibse.com.pp"
+  'fundamental-mode
+  '(projectile-mode linum-mode global-auto-revert-mode)
+  4675
+  '(4675 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/modules/whibse/templates/search_conf.clj.erb"
+  "search_conf.clj.erb"
+  'web-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/modules/whibse/templates/brandy_conf.clj.erb"
+  "brandy_conf.clj.erb"
+  'web-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode)
+  717
+  '(626 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/modules/whibse/manifests/brandy.pp"
+  "brandy.pp"
+  'fundamental-mode
+  '(projectile-mode linum-mode global-auto-revert-mode)
+  158
+  '(137 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/environments/whibse/manifests/brandy-app1.whibse.com.pp"
+  "brandy-app1.whibse.com.pp"
+  'fundamental-mode
+  '(projectile-mode linum-mode global-auto-revert-mode)
+  463
+  '(463 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/environments/whibse/manifests/brandy-db1.whibse.com.pp"
+  "brandy-db1.whibse.com.pp"
+  'fundamental-mode
+  '(projectile-mode linum-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/modules/whibse/templates/harvester-prod.erb"
+  "harvester-prod.erb"
+  'web-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode)
+  2
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/modules/whibse/templates/harvester-harvester.whibse.com.erb"
+  "harvester-harvester.whibse.com.erb"
+  'web-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/modules/whibse/templates/harvester-harvester-app1.whibse.com.erb"
+  "harvester-harvester-app1.whibse.com.erb"
+  'web-mode
+  '(projectile-mode linum-mode global-auto-revert-mode rainbow-delimiters-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/grahamjones/whibse/puppet/environments/whibse/manifests/whibse_prod.pp"
+  "whibse_prod.pp"
+  'fundamental-mode
+  '(projectile-mode linum-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
