@@ -2,7 +2,7 @@ Process I had to do to install on OSX:
 
 * Install homebrew
 
-* `git clone https://github.com/qmk/qmk_firmware.git` - maybe make as submodule later?
+* `git clone https://github.com/qmk/qmk_firmware.git` - now a submodule at the top level of this repo
 * `cd qmk_firmware && git submodule update --init --recursive`
 * `brew install dfu-programmer`
 * ensure xcode command line tools are installed `xcode-select --install`
