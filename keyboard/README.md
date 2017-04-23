@@ -23,11 +23,13 @@ Process I had to do to install on OSX:
 * `teensy_loader_cli -mmcu=atmega32u4 -w <compiled_hex_file>`
 
 == Infinity
+Substitute your keymap name for `tnem`
 * `make infinity-keymapname`
-* put left keyboard in flash mode
-* (sudo?) `make infinity-<keymap-name>-dfu-util`
 
-* put right in flash mode
-* `make infinity-<keymap-name> MASTER=right`
-* (sudo?) `make infinity-<keymap-name>-dfu-util MASTER=right`
+* `make infinity-tnem-.build/ergodox_infinity_tnem.bin`
+* Connect left keyboard, put in flash mode
+* `dfu-util --device 1c11:b007 -D ../../.build/ergodox_infinity_tnem.bin`
 
+* `MASTER=right make infinity-tnem-.build/ergodox_infinity_tnem.bin`
+* Connect right keyboard, put in flash mode
+* `dfu-util --device 1c11:b007 -D ../../.build/ergodox_infinity_tnem.bin`
