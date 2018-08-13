@@ -38,8 +38,8 @@ enum custom_keycodes {
  *                                        | Alt  |  L1  |       | L1   |  Alt |
  *                                 ,------|------|------|       |------+--------+------.
  *                                 |      |      | Home |       | PgUp |        |      |
- *                                 | Del  |Backsp|------|       |------| Enter  | Space|
- *                                 |      |ace   | End  |       | PgDn |        |      |
+ *                                 |Backsp| Del  |------|       |------| Enter  | Space|
+ *                                 |  ace |      | End  |       | PgDn |        |      |
  *                                 `--------------------'       `----------------------'
  */
 // If it accepts an argument (i.e, is a function), it doesn't need KC_.
