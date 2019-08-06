@@ -81,7 +81,11 @@
     neotree
 
     ;; major mode for jsx / html editing
-    web-mode))
+    web-mode
+
+    ;; major mode for typescript
+    tide
+))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
@@ -149,21 +153,42 @@
 (load "setup-clojure.el")
 (load "setup-js.el")
 (load "setup-web.el")
+(load "yaml-mode.el")
+(load "php-mode.el")
+(load "puppet-mode.el")
+(load "term-fix.el")
 (put 'erase-buffer 'disabled nil)
+
+(windmove-default-keybindings)
+(electric-indent-mode)
+
+(global-set-key (kbd "C-x 7") (lambda () (interactive) (split-window (window-parent) nil 'left)))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ansi-color-faces-vector
+   [default bold shadow italic underline bold bold-italic bold])
+ '(ansi-color-names-vector
+   (vector "#eaeaea" "#d54e53" "#b9ca4a" "#e7c547" "#7aa6da" "#c397d8" "#70c0b1" "#000000"))
  '(blink-cursor-mode nil)
  '(coffee-tab-width 2)
+ '(custom-safe-themes
+   (quote
+    ("1157a4055504672be1df1232bed784ba575c60ab44d8e6c7b3800ae76b42f8bd" "5ee12d8250b0952deefc88814cf0672327d7ee70b16344372db9460e9a0e3ffc" default)))
+ '(fci-rule-color "#2a2a2a")
  '(menu-bar-mode nil)
+ '(package-selected-packages
+   (quote
+    (color-theme-vim-insert-mode tide web-mode tagedit smex rainbow-delimiters projectile paredit neotree magit json-mode ido-ubiquitous git-rebase-mode git-commit-mode exec-path-from-shell enh-ruby-mode clojure-mode-extra-font-locking cider-decompile)))
  '(show-paren-mode t)
- '(tool-bar-mode nil))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#000000" :foreground "#eaeaea" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 160 :width normal :foundry "nil" :family "Menlo")))))
+ '(tool-bar-mode nil)
+ '(typescript-indent-level 2))
+;; (custom-set-faces
+ ;; ;; custom-set-faces was added by Custom.
+ ;; ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; ;; Your init file should contain only one such instance.
+ ;; ;; If there is more than one, they won't work right.
+ ;; '(default ((t (:inherit nil :stipple nil :background "#000000" :foreground "#eaeaea" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 160 :width normal :foundry "nil" :family "Menlo")))))

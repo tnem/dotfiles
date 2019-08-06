@@ -1,0 +1,128 @@
+rm fsizes.txt 
+egrep -ri 'source.*map' .
+ls -a ../ls-common-lib/
+ls -a .
+find ../ls-common-lib -iname '*webpack*'
+webpack
+npm
+cat ~/.bashrc 
+docker-compose -f ~/dockerfiles/generic/docker-compose.yml run linux
+ls
+mkdir js8
+mv js8 js_new
+mkdir js8
+ls
+mv js_new js8/Dockerfile
+cd
+cd whibse/legitscript/
+cd ssh:gjones.io
+cd ls-products-api/
+grep -ri '__dirname' webpack.runfile.config.js
+ls
+grep -ri '__dirname' webpack.*
+grep -ri '__dirname' webpack.*
+python
+grep -ri 'logg' src/
+ls ../ls-common-lib/
+pushd ~
+cd dockerfiles/generic/
+mkdir emacs
+cd emacs/
+cp ../linux/Dockerfile ./
+cd ..
+rm -rf emacs/
+ls
+less models.ts 
+ls
+cat index.ts
+cd
+cd whibse/legitscript/
+cd ../scrapy-cluster/
+ls
+git status
+git checkout develop
+git pull
+git checkout -b release_2018-05-16
+git push origin release_2018-05-16
+cd ../aragog-api/
+git status
+git pull
+git pull origin develop
+git status
+git checkout -- scrapy-cluster/
+git status
+cd scrapy-cluster/
+git status
+git diff
+git status
+git checkout -- .
+git status
+git pull
+cd ..
+git status
+cd ../scrapy-cluster/
+cd ..
+ls
+rm -rf scrapy-cluster-bkup/
+rm -rf scrapy-bkup/
+ls
+cd scrapy-cluster/
+git status
+whois jonaustin.io
+cd ..
+cd whibse
+cd modules/harvester/src/main/clojure/whibse/harvester/
+ls
+git blame nodes.clj 
+git status
+cd ..
+cp params/beta-customers-services.json params/graham-customers-services.json
+emacs params/graham-customers-services.json
+exit
+ls
+cp SharedConstants.cls-meta.xml SharedconstantsTest.cls-meta.xml
+git status
+git add SharedConstants.cls-meta.xml*
+git status
+exit
+cd ..
+cd ..
+grep -ri 'COPY' .
+ls
+ls privateBlob/
+cd privateBlob/
+ls -l
+rm private/
+cd ..
+grep -ri 'COPY' .
+pushd ~/whibse/AWS-CloudFormation/
+grep -ri 'redshift' stacks/
+git status
+git add params/production-whois-redshift-cluster.json 
+git status
+git commit -m "add skeleton of prod redshift params based on old infra-whibse-whois params"
+git push
+git push origin LS-2584_whois-redshift
+git pull origin LS-2584_whois-redshift
+git status
+git commit -m "add skeleton of prod redshift params based on old infra-whibse-whois params"
+git status
+git push
+git push
+diskutil umount /Volumes/NO\ NAME/
+diskutil umount /Volumes/NO\ NAME/
+grep -ri 'website' .
+grep -ri 'heading' .
+grep -ri 'approvalstatus' .
+grep -ri 'verification_article' .
+exit
+cd
+ls dockerfiles/
+ls
+cd dockerfiles/
+ls privateBlob/
+cat privateBlob/docker-compose.yml 
+cat privateBlob/rails/
+cat privateBlob/rails/Dockerfile 
+cd
+less ~/.aws/credentials
